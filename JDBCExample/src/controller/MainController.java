@@ -9,12 +9,12 @@ import java.awt.event.ActionListener;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-public class Controller implements ActionListener{
+public class MainController implements ActionListener{
     private boolean connected;
     private MainView mainView;
     private ConectorDB conn;
 
-    public Controller(MainView mainView) {
+    public MainController(MainView mainView) {
         this.mainView = mainView;
         this.connected = false;
     }

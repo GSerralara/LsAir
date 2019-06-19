@@ -1,9 +1,8 @@
 package view;
 
-import controller.Controller;
+import controller.MainController;
 
 import javax.swing.*;
-import javax.swing.border.Border;
 import javax.swing.border.TitledBorder;
 import java.awt.*;
 
@@ -195,7 +194,7 @@ public class MainView extends JFrame{
 
     }
 
-    public void registerController(Controller controller) {
+    public void registerController(MainController controller) {
         jbConnect.addActionListener(controller);
         jbDisconnect.addActionListener(controller);
         jbCerca.addActionListener(controller);

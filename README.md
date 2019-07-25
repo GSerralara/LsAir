@@ -11,8 +11,8 @@ Then based on that, create a new database, with its procedures and events, to st
 
 ## Authors
 
-Oscar Pozuelo
-Guillermo Serraclara
+* Oscar Pozuelo
+* Guillermo Serraclara
 
 
 ## License

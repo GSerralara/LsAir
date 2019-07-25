@@ -1,0 +1,13 @@
+#EVENT
+
+DELIMITER $$
+
+DROP EVENT IF EXISTS updateOLAP $$
+CREATE EVENT updateOLAP
+ON SCHEDULE EVERY 2 WEEK
+DO BEGIN
+	
+	call importacio;
+    
+END $$
+DELIMITER ;
